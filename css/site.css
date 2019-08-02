@@ -9,7 +9,7 @@ body {
    --gap-horizontal: 10px;
    --gap-vertical: 5px;
    --time-anim: 4s;
-   --delay-anim: 2s;
+   --delay-anim: 0.5s;
    --blend-mode-1: none;
    --blend-mode-2: overlay;
    --blend-mode-3: none;
@@ -99,7 +99,7 @@ body {
 .contentTitle {
     font-size: 10vw;
     font-family: 'Playfair Display', serif;
-    animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.2);
+    animation-delay: calc(var(--time-anim) * 0.2);
 }
 .contentTitle span {
     color: #ff4e18;
