@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English|Playfair+Display:900"rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+href="css/site.css" />
+    <title>Web Designer Glitch Effects</title>
+
+</head>
+
+<body>
+  <div id="loader" class="loading">
+       <div class="loading-logo">
+         <img src="img/logo.svg" class="logo">
+       </div>
+  </div>
+  <div class="content">
+       <div class="glitch">
+            <div class="glitchit"></div>
+            <div class="glitchit"></div>
+            <div class="glitchit"></div>
+            <div class="glitchit"></div>
+            <div class="glitchit"></div>
+       </div>
+       <div class="contentSection">
+       <h2 class="contentTitle">Let's<span>Play</span></h2>
+           </div>
+    </div>
+
+</body>
+<script>
+       var loader = document.getElementById('loader');
+       window.addEventListener("load",
+function(event) {
+           loader.classList.remove('loading');
+           loader.classList.add('loaded');
+           document.body.classList.
+add('imgloaded');
+       });
+</script>
+</html>
